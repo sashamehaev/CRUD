@@ -1,0 +1,88 @@
+.main {
+    margin: 100px auto;
+    width: 880px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0 0;
+}
+
+.form__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+}
+
+.form-input-list {
+    width: 640px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__input {
+    border: 0;
+    padding: 0;
+    height: 27px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.form__input:focus {
+    outline: none;
+}
+
+.form__button {
+    width: 170px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.table {
+    width: 100%;
+    margin: 0 0 100px;
+}
+
+.table__cell {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    text-align: left;
+    display: inline-block;
+    margin: 0 20px 12px 0;
+    width: 120px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.table__cell_type_title {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.table__cell_type_change {
+    width: auto;
+}
+
+.table__cell_type_link {
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
